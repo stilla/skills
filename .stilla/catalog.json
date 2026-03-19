@@ -1,0 +1,18 @@
+{
+  "name": "stilla-skills",
+  "metadata": {
+    "description": "Official Stilla skills",
+    "version": "1.0.0"
+  },
+  "collections": [
+    {
+      "id": "meetings",
+      "name": "Meetings",
+      "description": "Templates for structuring meeting notes and follow-ups",
+      "skills": [
+        { "path": "./skills/one-on-one-meeting", "updated_at": "2026-03-20" },
+        { "path": "./skills/standup-meeting", "updated_at": "2026-03-20" }
+      ]
+    }
+  ]
+}
