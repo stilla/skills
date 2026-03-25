@@ -1,17 +1,24 @@
 {
-  "name": "stilla-skills",
-  "metadata": {
-    "description": "Official Stilla skills",
-    "version": "1.0.0"
-  },
+  "name": "Stilla Official Skills",
+  "version": 1,
   "collections": [
     {
       "id": "meetings",
       "name": "Meetings",
       "description": "Templates for structuring meeting notes and follow-ups",
       "skills": [
-        { "path": "./skills/one-on-one-meeting", "updated_at": "2026-03-20" },
-        { "path": "./skills/standup-meeting", "updated_at": "2026-03-20" }
+        {
+          "path": "skills/one-on-one-meeting",
+          "name": "one-on-one-meeting",
+          "description": "Format meeting notes for a 1:1 meeting. Use when the user wants to structure a canvas for a one-on-one meeting with a direct report, manager, or teammate. Captures priorities, progress, challenges, feedback, and next steps in a concise, actionable format. Triggers include requests to \"set up 1:1 notes\", \"format this as a 1:1\", \"structure my one-on-one\", or any meeting canvas involving two people.",
+          "updated_at": "2026-03-20"
+        },
+        {
+          "path": "skills/standup-meeting",
+          "name": "standup-meeting",
+          "description": "Format meeting notes for a daily standup. Use when the user wants to structure a canvas for a standup, daily sync, or scrum meeting. Documents each participant's updates on accomplishments, current focus, and blockers. Triggers include requests to \"format standup notes\", \"structure my daily sync\", \"set up standup\", or any short recurring team meeting focused on status updates.",
+          "updated_at": "2026-03-20"
+        }
       ]
     }
   ]
