@@ -20,6 +20,19 @@
           "updated_at": "2026-03-20"
         }
       ]
+    },
+    {
+      "id": "planning",
+      "name": "Planning",
+      "description": "Templates for planning, change management, and organisational work",
+      "skills": [
+        {
+          "path": "skills/manage-change",
+          "name": "manage-change",
+          "description": "Organisational change management with stakeholder analysis, communication planning, and adoption tracking. Use when rolling out a new process, tool migration, or organisational restructure. Trigger with \"manage change for\", \"change management plan\", \"how do we roll out [change]\".",
+          "updated_at": "2026-04-27"
+        }
+      ]
     }
   ]
 }
