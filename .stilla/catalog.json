@@ -18,6 +18,12 @@
           "name": "standup-meeting",
           "description": "Format meeting notes for a daily standup. Use when the user wants to structure a canvas for a standup, daily sync, or scrum meeting. Documents each participant's updates on accomplishments, current focus, and blockers. Triggers include requests to \"format standup notes\", \"structure my daily sync\", \"set up standup\", or any short recurring team meeting focused on status updates.",
           "updated_at": "2026-03-20"
+        },
+        {
+          "path": "skills/legal-risk-assessment",
+          "name": "legal-risk-assessment",
+          "description": "Identify, score, and classify legal risks using a Severity x Likelihood matrix with structured mitigation planning. Use when the user wants to assess legal risk for a contract, business initiative, product feature, market entry, compliance review, or DPIA. Triggers include requests involving \"legal exposure\", \"risk register\", \"risk matrix\", or legal risk assessment. Output must be reviewed by qualified legal professionals.",
+          "updated_at": "2026-05-11"
         }
       ]
     }
