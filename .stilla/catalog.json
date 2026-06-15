@@ -20,6 +20,113 @@
           "updated_at": "2026-03-20"
         }
       ]
+    },
+    {
+      "id": "communication",
+      "name": "Communication & Tone",
+      "description": "Write clearer, sharper, and more professional communication.",
+      "skills": [
+        {
+          "path": "skills/professional-writing",
+          "name": "professional-writing",
+          "description": "Rewrite and polish text into clear, concise, professional prose. Use when the user wants help with voice and tone, tightening wordy text, fixing an awkward draft, or matching a consistent writing style. Triggers include \"make this sound more professional\", \"tighten this up\", \"rewrite this\", \"fix the tone\", or pasting a draft for polish.",
+          "updated_at": "2026-06-15"
+        },
+        {
+          "path": "skills/email-drafting",
+          "name": "email-drafting",
+          "description": "Draft and reply to emails with the right tone, structure, and a clear ask. Use when the user wants to write a new email, reply to a thread, follow up, or decline a request. Triggers include \"draft an email\", \"reply to this\", \"write a follow-up\", \"help me say no to this\", or pasting an email thread to respond to.",
+          "updated_at": "2026-06-15"
+        },
+        {
+          "path": "skills/status-update",
+          "name": "status-update",
+          "description": "Write concise status updates and stakeholder reports for Slack, email, or docs. Use when the user wants to share progress, write a weekly update, summarize a project's state, or tailor a report for leadership versus a working team. Triggers include \"write a status update\", \"summarize progress for leadership\", \"draft our weekly update\", or \"turn this into a stakeholder report\".",
+          "updated_at": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "description": "Plan your week, prep meetings, and turn notes into action.",
+      "skills": [
+        {
+          "path": "skills/meeting-prep",
+          "name": "meeting-prep",
+          "description": "Prepare an agenda and pre-read brief before a meeting. Use when the user wants to get ready for an upcoming meeting, build an agenda, or compile background on attendees and topics. Triggers include \"prep me for this meeting\", \"build an agenda\", \"what should I know before this call\", or \"create a pre-read for tomorrow's meeting\".",
+          "updated_at": "2026-06-15"
+        },
+        {
+          "path": "skills/weekly-review",
+          "name": "weekly-review",
+          "description": "Run a weekly review that summarizes open tasks, deadlines, progress, and what to focus on next. Use when the user wants to plan their week, wrap up the week, or get a roll-up of commitments across tools. Triggers include \"run my weekly review\", \"what's on my plate this week\", \"plan my week\", or \"what did I get done this week\".",
+          "updated_at": "2026-06-15"
+        },
+        {
+          "path": "skills/task-triage",
+          "name": "task-triage",
+          "description": "Turn messy notes, transcripts, or a brain dump into a clean, prioritized task list. Use when the user wants to extract action items, organize a to-do list, or decide what to do first. Triggers include \"pull out the action items\", \"turn this into tasks\", \"what should I do first\", or pasting raw notes to organize.",
+          "updated_at": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "name": "Legal & Compliance",
+      "description": "Review contracts and triage NDAs before you sign.",
+      "skills": [
+        {
+          "path": "skills/contract-review",
+          "name": "contract-review",
+          "description": "Review a contract clause-by-clause to surface risks, obligations, and unusual terms. Use when the user shares an agreement (MSA, SOW, vendor contract, employment agreement) and wants to understand what they are signing or flag problem clauses. Triggers include \"review this contract\", \"what are the risky terms\", \"summarize this agreement\", or \"anything unusual in this contract\".",
+          "updated_at": "2026-06-15"
+        },
+        {
+          "path": "skills/nda-triage",
+          "name": "nda-triage",
+          "description": "Quickly classify an incoming NDA as standard, needs-review, or high-risk and explain why. Use when someone receives a non-disclosure agreement and needs a fast read before signing or escalating. Triggers include \"triage this NDA\", \"is this NDA standard\", \"can I sign this NDA\", or \"what's wrong with this NDA\".",
+          "updated_at": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "id": "sales-product",
+      "name": "Sales & Product",
+      "description": "Research accounts, win deals, and spec out product work.",
+      "skills": [
+        {
+          "path": "skills/competitive-battlecard",
+          "name": "competitive-battlecard",
+          "description": "Build a sales battlecard comparing your product to a named competitor. Use when the user wants a side-by-side comparison, talking points to win against a competitor, or objection handling for a deal. Triggers include \"build a battlecard for [competitor]\", \"how do we compare to X\", \"give me talking points against Y\", or \"help me beat [competitor] in this deal\".",
+          "updated_at": "2026-06-15"
+        },
+        {
+          "path": "skills/prd-writer",
+          "name": "prd-writer",
+          "description": "Turn a rough idea into a clear product spec or PRD. Use when the user wants to define a feature, write requirements, or structure a product proposal from a vague concept. Triggers include \"write a PRD\", \"spec out this feature\", \"turn this idea into requirements\", or \"draft a product spec for X\".",
+          "updated_at": "2026-06-15"
+        },
+        {
+          "path": "skills/account-research",
+          "name": "account-research",
+          "description": "Research a company or prospect into an actionable brief for sales or partnerships. Use when the user wants background on an account before a call, a summary of a target company, or signals worth acting on. Triggers include \"research this account\", \"brief me on [company]\", \"what should I know before calling [prospect]\", or \"summarize this company for a sales call\".",
+          "updated_at": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "name": "Data & Analysis",
+      "description": "Explore datasets and surface insights.",
+      "skills": [
+        {
+          "path": "skills/data-analysis",
+          "name": "data-analysis",
+          "description": "Explore a dataset and surface insights, trends, and anomalies. Use when the user shares a spreadsheet, CSV, or table and wants it profiled, summarized, analyzed, or visualized. Triggers include \"analyze this data\", \"what trends are in this\", \"summarize this spreadsheet\", \"find anomalies\", or \"what does this dataset tell me\".",
+          "updated_at": "2026-06-15"
+        }
+      ]
     }
   ]
 }
